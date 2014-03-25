@@ -2,17 +2,13 @@ var pictureList = new PictureList();
 var pictureListView;
 var container = document.querySelector('#container');
 var msnry;
+var count = 0;
 
 $(document).ready(function() {
-  $.getJSON("https://api.getchute.com/v2/albums/aus6kwrg/assets/").done(function(results) {
-    for (var index = 0; index < results.data.length; ++index) {
-      pictureList.add(new Picture({data: results.data[index]}));
-    }
+  $(function(){ SurfWallApp.start() });
 
-    pictureListView = new PictureListView({collection: pictureList});
-    pictureListView.render();
-
-    $('body').append(pictureListView.el);
+  SurfWallApp.pictureList.fetch().done(function(){
+    SurfWallApp.pictureListView.render();
   });
 
   $('<img />').load( function(){
