@@ -1,0 +1,22 @@
+.item {
+  width: 500px;
+  background-color: #9CC9DE;
+  padding-left: 4px;
+  border-radius: 5px;
+}
+
+.avatar {
+  max-width: 50px;
+  height: auto;
+}
+
+.photo {
+  max-width: 496px;
+  height: auto;
+}
+
+#container, h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
