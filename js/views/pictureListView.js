@@ -2,16 +2,9 @@
 
 var PictureListView = Backbone.View.extend({
   id: 'container',
-  initialize: function(){
-    this.collection.on('reset', this.render, this);
-  },
   render: function(){
-    this.addAll();
-    return this;
-  },
-  addAll: function(){
-    this.$el.empty();
-    this.collection.forEach(this.addOne);
+    this.collection.forEach(this.addOne, this);
+        return this;
   },
   addOne: function(pictureModel){
     var pictureView = new PictureView({model: pictureModel});
