@@ -7,9 +7,7 @@ var SurfWallApp = new (Backbone.Router.extend({
   },
   initialize: function() {
     this.pictureList = new PictureList();
-    this.pictureList.fetch();
     this.pictureListView = new PictureListView({collection: this.pictureList});
-    this.pictureListView.render();
     $('body').append(this.pictureListView.el);
   },
   index: function(){
