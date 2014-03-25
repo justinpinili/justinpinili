@@ -2,7 +2,9 @@
   width: 500px;
   background-color: #9CC9DE;
   padding-left: 4px;
+  padding-top: 4px;
   border-radius: 5px;
+  margin-bottom: 6px;
 }
 
 .avatar {
