@@ -14,7 +14,9 @@ var PictureListView = Backbone.View.extend({
       this.collection.forEach(this.addOne, this);
     }
     var $container = $('#container');
-    $container.masonry();
+    imagesLoaded( '#container', function() {
+      $container.masonry();
+    });
     return this;
   },
   addOne: function(pictureModel){
