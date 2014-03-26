@@ -10,7 +10,6 @@ var SurfWallApp = new (Backbone.Router.extend({
     this.pictureList = new PictureList();
     this.pictureListView = new PictureListView({collection: this.pictureList});
     $('body').append(this.pictureListView.el);
-    console.log(this.pictureListView.el);
     $('.info').hide().appendTo('body').fadeIn(900);
     $('#container').hide().appendTo('body').fadeIn(900);
   },
