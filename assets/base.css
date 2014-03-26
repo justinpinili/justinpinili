@@ -1,10 +1,11 @@
 .item {
-  width: 500px;
+  width: 296px;
   background-color: #9CC9DE;
   padding-left: 4px;
   padding-top: 4px;
   border-radius: 5px;
   margin-bottom: 6px;
+  margin-right: 6px;
 }
 
 .avatar {
@@ -13,12 +14,26 @@
 }
 
 .photo {
-  max-width: 496px;
-  height: auto;
+  max-width: 292px;
+  max-height: auto;
 }
 
 #container, h1 {
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
+  margin-left: 50px;
+}
+
+.itemWithInformation {
+  text-align: center;
+  width: 496px;
+  background-color: #9CC9DE;
+  padding-left: 4px;
+  padding-top: 4px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  margin-right: 6px;
+}
+
+.photoWithInformation {
+  max-width: 492px;
+  max-height: auto;
 }
