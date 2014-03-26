@@ -1,12 +1,15 @@
-var $container = $('#container');
+function reRender() {
+    SurfWallApp.pictureList.fetch().done(function(){
+    $('.itemWithInformation').remove();
+    SurfWallApp.pictureListView.render();
+  });
+}
 
 $(document).ready(function() {
   $(function(){ SurfWallApp.start() });
 
-  SurfWallApp.pictureList.fetch().done(function(){
-    SurfWallApp.pictureListView.render();
-    imagesLoaded( '#container', function() {
-      $container.masonry();
-    });
+  $('body').on('click', '.pic', function(){
+    var pictureID = "picture/" + $(this).attr('id');
+    SurfWallApp.navigate( pictureID, { trigger: true });
   });
 });
