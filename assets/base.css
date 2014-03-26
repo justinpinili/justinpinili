@@ -9,8 +9,9 @@
 }
 
 .avatar {
-  max-width: 50px;
+  max-width: 100px;
   height: auto;
+  border-radius: 5px;
 }
 
 .photo {
@@ -18,13 +19,15 @@
   max-height: auto;
 }
 
-#container, h1 {
+#container, h1, .info {
   margin-left: 50px;
 }
 
 .itemWithInformation {
   text-align: center;
-  width: 496px;
+  font-size: 21px;
+  width: 1000px;
+  height: 496px;
   background-color: #9CC9DE;
   padding-left: 4px;
   padding-top: 4px;

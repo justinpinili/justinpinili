@@ -17,6 +17,9 @@ var PictureList = Backbone.Collection.extend({
       SurfWallApp.pictureList.add(focus);
       SurfWallApp.pictureListView = new PictureListView({collection: SurfWallApp.pictureList});
       SurfWallApp.pictureListView.render();
+      $('.info').fadeOut(600, function(){
+        $('.info').remove();
+      });
       $('#container').fadeOut(600, function(){
         $('#container').remove();
         $('body').append(SurfWallApp.pictureListView.el);
