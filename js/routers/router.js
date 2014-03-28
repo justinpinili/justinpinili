@@ -17,6 +17,6 @@ var SurfWallApp = new (Backbone.Router.extend({
     reRender();
   },
   show: function(id){
-    this.pictureList.focusOnPictureItem(id);
+    this.pictureListView.focusOnPictureItem(id);
   }
 }));
