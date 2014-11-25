@@ -6,7 +6,6 @@
 
 body {
     overflow-x: hidden;
-    width: 100%;
 }
 
 p {
@@ -445,4 +444,4 @@ footer .footer-below {
     transform: rotate(90deg);
 }
 
-/*html, body { width:100%; overflow-x:hidden; }*/
+html, body { width:100%; overflow-x:hidden; }
