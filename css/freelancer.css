@@ -445,3 +445,8 @@ footer .footer-below {
 }
 
 html, body { width:100%; overflow-x:hidden; }
+
+.thename a:hover{
+    text-decoration: none;
+    color: #2c3e50;
+}
