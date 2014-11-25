@@ -443,3 +443,5 @@ footer .footer-below {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 }
+
+html, body { width:100%; overflow-x:hidden; }
