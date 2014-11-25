@@ -1,25 +1,26 @@
-# Justin Pinili's Surf Wall
+# [Start Bootstrap](http://startbootstrap.com/) - [Freelancer](http://startbootstrap.com/template-overviews/freelancer/)
 
-[http://justinpinili.github.io](http://justinpinili.github.io)
+[Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, and a working PHP contact form.
 
-## Implementation
+## Getting Started
 
-[Chute API](http://www.getchute.com/developers/reference/chute-api/v2/)
-[Backbone.js](http://backbonejs.org/)
-[Underscore.js](http://underscorejs.org/)
-[jQuery](http://jquery.com/)
-[Masonry](http://masonry.desandro.com/)
-[imagesLoaded](http://imagesloaded.desandro.com/)
+To use this theme, choose one of the following options to get started:
+* Download the latest release on Start Bootstrap
+* Fork this repository on GitHub
 
-I was assigned this project on Friday, March 21, 2014. I've had experience with JavaScript, jQuery before but this was my first time really digging into Backbone.js as well as using Underscore.js (I've used mustache as a template before), Masonry, and imagesLoaded. It was a lot of fun putting this together and I can already see the amazing benifits of using Backbone.js and I hope I've displayed enough to show you that I can ramp up really quickly and understand fundamentals and adapt.
+## Bugs and Issues
 
-### Noteable Issues
+Have a bug or an issue with this theme? [Open a new issue](https://github.com/IronSummitMedia/startbootstrap-freelancer/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/freelancer/).
 
-Nothing renders in Internet Explorer. I believe it is due to running into cross-domain issues with ajax requests. I was doing some research and found out that IE tends to be a little weird with security, and I did not have enough time to debug this.
+## Creator
 
-If a hard-refresh happens, or if you click the source link (it happened to be instagram for all 5 pictures) navigate to that page, and click the back button, the page renders the .item div that contains the instructions, fades it out, and then displays the updated pictureList collection containing the specific picture with the ID listed in the URL. I wasn't able to figure this out but it looks like my code, as of right now, relies on the route.js initialize the page first, because that is the only notable place where I fade in the .item div.
+Start Bootstrap was created by and is maintained by **David Miller**, Managing Parter at [Iron Summit Media Strategies](http://www.ironsummitmedia.com/).
 
-I was not able to get into pushState because whenever I tried to initiate pushState when I started my Backbone history, my routes were not working correctly.
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
 
-Please let me know if you have any questions.
-I look forward to hearing from you soon.
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2014 Iron Summit Media Strategies, LLC. Code released under the [Apache 2.0](https://github.com/IronSummitMedia/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
