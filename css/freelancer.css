@@ -461,3 +461,7 @@ html, body { width:100%; overflow-x:hidden; }
     text-decoration: none;
     color: #2c3e50;
 }
+
+.top {
+  margin-top: -30px;
+}
