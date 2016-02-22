@@ -1,0 +1,30 @@
+.main {
+	margin-left: 15%;
+	width: 65%;
+}
+
+.avatar {
+	width: 50%;
+	height: 35%;
+}
+
+.center {
+	margin-left: 25%;
+}
+
+.half {
+	width: 45%;
+	display: inline-table;
+}
+
+h2, h3, h4 {
+	color: rgb(13,71,161);
+}
+
+a:link {
+	text-decoration: none;
+}
+
+.white {
+	color: white;
+}
