@@ -11,6 +11,12 @@
 	margin-left: 25%;
 }
 
+.icon-center {
+	position: relative;
+	right: -38%;
+	width: 300px;
+}
+
 .half {
 	width: 45%;
 	display: inline-table;
