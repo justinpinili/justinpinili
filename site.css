@@ -37,3 +37,7 @@ a:link {
 li {
 	list-style-type: square;
 }
+
+md-card {
+	min-width: 950px;
+}
